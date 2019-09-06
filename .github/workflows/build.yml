@@ -17,4 +17,4 @@ jobs:
       run: |
         export _arcdir=$(ls | grep "arc-theme-" | tail -1)
         cd "${_arcdir}"
-        ./autogen.sh --prefix=/usr --with-gnome-shell=3.32
+        ./autogen.sh --prefix=/usr --with-gnome-shell=3.32 --with-gtk3=3.24
